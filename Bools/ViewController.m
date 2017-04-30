@@ -16,7 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //NSHipster for boolean bool etc
+    
+    // not objects just value types
+    BOOL amICool = YES; // YES or NO, not true false
+    
+    if (amICool)
+    {
+        //do something
+    }
+    
+    // objects as bool
+    NSString *name = nil;
+    
+    if (name) {
+        // nil is false
+    }
+    
 }
 
 
